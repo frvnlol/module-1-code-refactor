@@ -8,6 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header and Nav section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +51,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Hero element */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,16 +61,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}    
-
+/* Main content section */
 .content {
     width: 75%;
     display: inline-block;
@@ -84,18 +77,27 @@ p {
     color: #ffffff;
 }
 
-.content img {
+.content article img {
     max-height: 200px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}    
 
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
-.benefits {
+/* Sidebar section */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -106,56 +108,23 @@ p {
     background-color: #2589bd;
 }    
 
-.benefit-lead {
+aside article {
     margin-bottom: 32px;
     color: #ffffff;
 }    
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}    
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}    
-
-.benefit-lead h3 {
+aside article h3 {
     margin-bottom: 10px;
     text-align: center;
 }    
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}    
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}    
-
-.benefit-lead img {
+  
+aside article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }    
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}    
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}    
-
-
-
+/* Footer */
 footer {
     padding: 30px;
     clear: both;
