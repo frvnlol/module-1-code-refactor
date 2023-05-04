@@ -1,3 +1,4 @@
+/* General Styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,7 +18,7 @@ p {
     font-size: 16px;
 }
 
-/* Header and Nav section */
+/* Header and navigation bar section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,7 +52,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* Hero element */
+/* Hero element (image at the top of the webpage) */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,7 +62,8 @@ header nav ul li {
     background-position: center;
 }
 
-/* Main content section */
+/* Main content section
+   Consolidated all repeating styles by grouping them with their respective classes and tags then organizing them in sequential order according to the HTML file. */
 .content {
     width: 75%;
     display: inline-block;
@@ -96,7 +98,8 @@ header nav ul li {
     font-size: 36px;
 }
 
-/* Sidebar section */
+/* Sidebar section 
+   Assigned styling to the new tag being used in HTML file and consolidated repeating styles to better group everything together while making it easier to read in case future changes need to be made.*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -124,7 +127,7 @@ aside article img {
     max-width: 150px;
 }    
 
-/* Footer */
+/* Footer section of webpage */
 footer {
     padding: 30px;
     clear: both;
